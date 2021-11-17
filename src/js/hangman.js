@@ -10,7 +10,6 @@ export default class Hangman{
   }
 
   nameInUnderscores(){
-    console.log(this.dinosaurName);
     const wordArray = this.dinosaurName.split("");
     let outputArray = [];
     wordArray.forEach(letter => {
@@ -19,7 +18,6 @@ export default class Hangman{
     return outputArray;
   }
   checkForLetter(letter){
-    console.log(letter);
     const upperCase = letter.toUpperCase();
     if (this.dinosaurName.indexOf(upperCase) === -1) {
       this.decrementFails();
