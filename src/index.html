@@ -3,8 +3,32 @@
   <title>Project Template</title>
 </head>
 <body>
-  <div class="card">
-    <h1 class="card-title">Project Title</h1>
+  <div class="container flex-container">
+      <div id="box1">
+        <h1>Dinosaur themed hangman!</h1>
+      </div>
+      <div id="box2">
+        <canvas id="hangman" width="180" height="250"></canvas>
+        <div class="game-area">
+          <h2 id="guess-area">Guessed Letters: </span></h2>
+          <h2 id="guessed-letters"></h2>
+          <!-- <h2>Attempts remaining: <span id="attempts"></span></h2> -->
+          
+        </div>
+        <h2 class="win-game">You are a winner! Thanks for playing.</h2>
+        <button type="button" class="btn win-game btn-dark btn-lg reset">Play Again?</button>
+        <h2 class="lose-game">Oh no you lost!</h2>
+        <button type="button" class="btn lose-game btn-dark btn-lg reset">Try Again?</button>
+      </div>
+      <div id="box3"> 
+        <h3 class="lose-game">Correct Answer</h3>
+        <h3 id="outputName"></h3>
+      </div>
+      <div id="box4" class="game-area">
+        <label for="guess-box"><h3>Input your guess:</h3></label>
+        <input type="text" id="guess-box" maxlength="1">
+        <button type="button" class="btn btn-dark btn-lg" id="submit-guess">Submit!</button>
+      </div>
   </div>
 </body>
 </html>
