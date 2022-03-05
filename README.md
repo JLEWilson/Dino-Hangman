@@ -1,8 +1,8 @@
-# _Project Title_
+# _Dino Hangman_
 
-#### By _**Jacob Wilson**_
+#### By _**Jacob Wilson & Christopher Neal**_
 
-#### _a brief description_
+#### _A hangman game using an api to select random dinosaur name. We did not use the Ipsum property of the api_
 
 ## Technologies Used
 
@@ -12,19 +12,18 @@
 * _Markdown_
 * _Bootstrap_
 * _JQuery_
-* _Jest_
 * _Webpack_
 * _Lint_
+* _[Dino Ipsum](https://dinoipsum.com/#res)_
 
 ## Description
 
-_a detailed description_
+_A game that uses an asynchronous javascript and api to generate a random dinosaur name places it as a property within a constructor. Another property on the object returns the name ran through a method that outputs the name as underscores. Once the user inputs a letter we check if it is contained in the dinosaur name adn replace the underscores in the proper positions with the letter input, or we draw a piece of the hangman character. Once there are no more underscores in the name the game is won and we give the user the option to play again with a button that reloads the webpage. If the hangman is drawn completely (and the countdown reaches 0) the game is lost and the lose screen displays with a button that also reloads the page._
 
 ## Setup/Installation Requirements
 
-Make sure to include information for package.jason and install
 
-* _You can find the github repository [here]()_
+* _You can find the github repository [here](https://github.com/JLEWilson/practice_dino_ipsum)_
 * _Click the code button, and copy the https link_
 * _In your in git bash or your preferred git terminal navigate to the directory you would like to store the project_
 * _Enter: "git clone" followed by the https link_
@@ -32,7 +31,7 @@ Make sure to include information for package.jason and install
 * _Now type npm install in your terminal to install the packages used in the project, you may have to run install twice due to the size of the packages_
 * _You can now view the project by typing npm run start in your terminal_
 * _OR_
-* _You can find the deployed project on gh-pages (here)[]
+* _You can find the deployed project on gh-pages (here)[https://jlewilson.github.io/practice_dino_ipsum/]_
 
 ## Known Bugs
 
@@ -42,4 +41,4 @@ Make sure to include information for package.jason and install
 
 _If you run into any problems or find a bug, would like to reach me for a separate reason, feel free to send me an email @jacobleeeugenewilson@gmail.com with details of your issue._
 
-Copyright (c) _11/12/2021_ _Jacob Wilson(s)_
+Copyright (c) _11/16/2021_ _Jacob Wilson_ _Christopher Neal_
